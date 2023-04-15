@@ -107,19 +107,37 @@
                         <label for="c2">Emerald Green</label><br>
                     
                         <p>Should we make another track car?</p>
-                        <input type="radio" id="yes" value="yes">
+                        <input type="radio" id="yes" name="track" value="yes">
                         <label for="yes">Yes</label><br>
-                        <input type="radio" id="no" value="no">
-                        <label for="no">No</label><br>                    
+                        <input type="radio" id="no" name="track" value="no">
+                        <label for="no">No</label><br><br>          
                     
 
-                        <p>What should the project name be?</p>
-                        <input type="text" id="name" name="name"><br>
+                        <label for="name" id="name" name="name"> What should the project name be?</label>
+                        <input type="text" id="name" name="name"><br><br>
 
-                        <p>When should we start?</p><br>
-                        <input type="date" id="start" name="yt">
+                        <label for="date" id="date" name="date"> When should we start?</label>
+                        <input type="date" id="start" name="yt"><br><br>
+
+
+                        <label for="excited">How excited are you?</label>
+                        <input list="excited-list" id="excited" name="excited"><br><br>
+                        <datalist id="excited-list">
+                            <option value="Very">Very</option>
+                            <option value="Extremely">Extremely</option>
+                            <option value="Can't wait!">Can't wait</option>
+                        </datalist>
+
+                        <label name="ready">Are you ready?</label>
+                        <select name="ready" id="ready">
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                        </select>
+                    
+
                         
                     </fieldset>
+                    <button type="button">This button does nothing!</button>
                     <p>Any other concerns?</p>
                     <textarea></textarea>
                 </form>
@@ -128,7 +146,16 @@
             <section>
                 <h2 id="Recordings">Recordings</h2>
                 <ul>
-                    <li></li>
+                    <li>
+                        <video width="600" height="400" controls>
+                            <source src="/source/video.mp4" type="video/mp4">
+                        </video>
+                    </li>
+                    <li>
+                        <audio controls>
+                            <source src="source/audio.mp3" type="audio/mp3">
+                        </audio>
+                    </li>
                 </ul>
             </section>
 
@@ -203,11 +230,11 @@ Backend Checklist (See for specifics on canvas)
 -Forms
     -form//
     -fieldset//
-    -input (of types checkbox//, radio//, text, and date)*
+    -input (of types checkbox//, radio//, text//, and date//)*
     -textarea//
-    -datalist
-    -select
-    -option
-    -button
+    -datalist//
+    -select//
+    -option//
+    -button//
 
 *You need to have at least one input of each type specified. 

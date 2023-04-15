@@ -14,6 +14,7 @@
                     <li> <a href="#New"> New</a> </li>
                     <li> <a href="#Other"> Other</a> </li>
                     <li> <a href="#Brainstorming Session">Brainstorming Session</a></li>
+                    <li> <a href="#Brainstorming Form">Brainstorming Form</a></li>
                     <li> <a href="#Recordings">Recordings</a></li>
                 </ul>
             </nav>
@@ -45,7 +46,7 @@
                 <ol>
                     <li>Recap Pending Tasks</li>
                     <li>New Items</li>
-                    <li>Brainstorm New Build Ideas</li>
+                    <li><i> New Build Ideas</i></li>
                 </ol>
             </section>
 
@@ -61,7 +62,7 @@
                 <h2 id="New">New</h2>
                 <ul>
                     <li>Determine Funding available</li>
-                    <li>Choose build use case (Offroad, Track, etc)</li>
+                    <li>Choose build <em> use case </em>(Offroad, Track, etc)</li>
                 </ul>
             </section>
 
@@ -72,9 +73,7 @@
                         <h3>Choose color</h3>
                         <ul>
                             <li>Black</li>
-                            <li>Red</li>
-                            <li>Blue</li>
-                            <li>Emerald Green (More expensive</li>
+                            <li>Emerald Green <b>(More expensive)</b></li>
                         </ul>
                     </li>
                     <li>
@@ -82,7 +81,7 @@
                         <ul>
                             <li>Could be good exposure</li>
                             <li>Could get good ideas</li>
-                            <li>Need to be there by 6:30am</li>
+                            <li>Need to be there by <strong>6:30am</strong> <br>- Or go late at <strong>7:30am</strong></li>
                         </ul>
 
                     </li>
@@ -91,8 +90,39 @@
 
             <section>
                 <h2 id="Brainstorming Session">Brainstorming Session</h2>
+                <p>* Example starter car</p>
+                <img src="\source\starter.jpg" alt="build starter" width="400">
                 <p>* Image from session on whiteboard below</p>
                 <img src="\source\Brainstorm.png" alt="Brainstorm Whiteboard" width="600">
+            </section>
+
+            <section>
+                <h2 id="Brainstorming Form">Brainstorming Session Form</h2>
+                <form>
+                    <fieldset>
+                        <p>Color Preferences</p>
+                        <input type="checkbox" id="c1" name="c1" value="black">
+                        <label for="c1">Black</label><br>
+                        <input type="checkbox" id="c2" name="c2" value="green">
+                        <label for="c2">Emerald Green</label><br>
+                    
+                        <p>Should we make another track car?</p>
+                        <input type="radio" id="yes" value="yes">
+                        <label for="yes">Yes</label><br>
+                        <input type="radio" id="no" value="no">
+                        <label for="no">No</label><br>                    
+                    
+
+                        <p>What should the project name be?</p>
+                        <input type="text" id="name" name="name"><br>
+
+                        <p>When should we start?</p><br>
+                        <input type="date" id="start" name="yt">
+                        
+                    </fieldset>
+                    <p>Any other concerns?</p>
+                    <textarea></textarea>
+                </form>
             </section>
 
             <section>
@@ -104,7 +134,7 @@
 
         </main>
         <footer>
-            Last Updated April 12, 2023, Copyright @Coporation Incorporated
+            Last Updated April 15, 2023, Copyright @Coporation Incorporated
         </footer>
     </body>
 </html>
@@ -152,13 +182,13 @@ Backend Checklist (See for specifics on canvas)
     -ol//
     -li//
 
--Inline text semantics
-    -b
-    -strong (know the differences between b and strong)
-    -i
-    -em (know the differences between i and em)
-    -a
-    -br
+-Inline text semantics//
+    -b//
+    -strong (know the differences between b and strong)//
+    -i//
+    -em (know the differences between i and em)//
+    -a//
+    -br//
 
 -Images and multimedia 
     -img//
@@ -171,10 +201,10 @@ Backend Checklist (See for specifics on canvas)
     -summary//
 
 -Forms
-    -form
-    -fieldset
-    -input (of types checkbox, radio, text, and date)*
-    -textarea
+    -form//
+    -fieldset//
+    -input (of types checkbox//, radio//, text, and date)*
+    -textarea//
     -datalist
     -select
     -option

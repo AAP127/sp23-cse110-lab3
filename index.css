@@ -1,0 +1,19 @@
+/*Heading Colors*/
+#Attended{
+   color: #7899e1;
+}
+
+#Recordings{
+    color: #570898;
+}
+
+h2{
+    color: hsl(273,90,31);
+}
+
+
+
+/*Form Background Color*/
+.form_a{
+    background-color: #00f6f055;
+}

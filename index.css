@@ -12,8 +12,14 @@ h2{
 }
 
 
-
 /*Form Background Color*/
 .form_a{
     background-color: #00f6f055;
 }
+
+/*Set left margin for all elems*/
+*{
+    margin-left: 10px;
+}
+
+/*Color missing inputs red*/

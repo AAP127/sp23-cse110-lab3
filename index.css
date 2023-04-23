@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Oswald;
+    src: url(Oswald_vfw.ttf) format('truetype');
+}
+
+/*Change h1 font*/
+h1{
+    font-family: Oswald;
+}
+
+/*Heading Colors*/
+#Attended{
+   color: #7899e1;
+}
+
+#Recordings{
+    color: #570898;
+}
+
+h2{
+    color: hsl(273,90,31);
+}
+
+
+/*Form Background Color*/
+.form_a{
+    background-color: #00f6f055;
+}
+
+/*Form drop down coloring*/
+select[name="ready"]{
+    background-color: #c44411;
+}
+
+/*Change link click color*/
+a:active{
+    color: #1cfc80;
+}
+
+/*Highlight text boxes*/
+p:hover{
+    background-color: aqua;
+}
+
+
+
+/*Set left margin for all elems*/
+*{
+    margin-left: 0.5vw;
+}
+
+/*Lock Video Box spacing*/
+.video{
+    position: static;
+}
+
+/*Add audio box spacing*/
+.audio{
+    position: relative;
+    top:2vh;
+}
+
+/*Emphasize Green Color*/
+.greencl{
+    font-size: 1.2em;
+}
+
+/*Adjust spacing for h2, h3 elems*/
+h2, h3{
+
+}

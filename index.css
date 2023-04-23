@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Oswald;
+    src: url(Oswald_vfw.ttf) format('truetype');
+}
+
+/*Change h1 font*/
+h1{
+    font-family: Oswald;
+}
+
 /*Heading Colors*/
 #Attended{
    color: #7899e1;
@@ -32,7 +42,26 @@ p:hover{
     background-color: aqua;
 }
 
+/*Change link click color*/
+a:active{
+    color: #1cfc80;
+}
+
+
+/*Lock Video Box spacing*/
+.video{
+    position: static;
+}
+
+
+/*Add audio box spacing*/
+.audio{
+    position: relative;
+    top:30px;
+}
+
+
 /*Adjust spacing for h2, h3 elems*/
 h2, h3{
-    
+
 }

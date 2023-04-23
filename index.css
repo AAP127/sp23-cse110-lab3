@@ -22,4 +22,17 @@ h2{
     margin-left: 10px;
 }
 
-/*Color missing inputs red*/
+/*Form drop down coloring*/
+select[name="ready"]{
+    background-color: #c44411;
+}
+
+/*Highlight text boxes*/
+p:hover{
+    background-color: aqua;
+}
+
+/*Adjust spacing for h2, h3 elems*/
+h2, h3{
+    
+}

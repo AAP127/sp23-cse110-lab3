@@ -27,19 +27,9 @@ h2{
     background-color: #00f6f055;
 }
 
-/*Set left margin for all elems*/
-*{
-    margin-left: 10px;
-}
-
 /*Form drop down coloring*/
 select[name="ready"]{
     background-color: #c44411;
-}
-
-/*Highlight text boxes*/
-p:hover{
-    background-color: aqua;
 }
 
 /*Change link click color*/
@@ -47,19 +37,33 @@ a:active{
     color: #1cfc80;
 }
 
+/*Highlight text boxes*/
+p:hover{
+    background-color: aqua;
+}
+
+
+
+/*Set left margin for all elems*/
+*{
+    margin-left: 0.5vw;
+}
 
 /*Lock Video Box spacing*/
 .video{
     position: static;
 }
 
-
 /*Add audio box spacing*/
 .audio{
     position: relative;
-    top:30px;
+    top:2vh;
 }
 
+/*Emphasize Green Color*/
+.greencl{
+    font-size: 1.2em;
+}
 
 /*Adjust spacing for h2, h3 elems*/
 h2, h3{

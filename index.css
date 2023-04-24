@@ -42,6 +42,15 @@ p:hover{
     background-color: aqua;
 }
 
+/*Adjust Agenda Size and Color*/
+.agenda{
+    background-color: #ffcf09;
+    width: 40vh;
+    height: 25vh;
+    max-width: 400px;
+    max-height: 200px;
+}
+
 
 
 /*Set left margin for all elems*/
@@ -49,9 +58,10 @@ p:hover{
     margin-left: 0.5vw;
 }
 
-/*Lock Video Box spacing*/
+/*Lock Video Box spacing, auto margin*/
 .video{
     position: static;
+    margin: auto;
 }
 
 /*Add audio box spacing*/
@@ -64,6 +74,37 @@ p:hover{
 .greencl{
     font-size: 1.2em;
 }
+
+/*Hide hidden text*/
+p.starter_ex {display: none}
+
+/*Put new meeting time inline*/
+p.new_time {display:inline;}
+
+/*Add Starter Car Image Spacing, all shorthand when possible*/
+.starter_img{
+    border: 0.5cm solid lightblue;
+    border-radius: 0.25in;
+    padding: 5px, 2px, 1px,3px;
+    margin: 30px, 5px, 10px, 5px;
+}
+
+/*Add Brainstorm Image Spacing, all long form*/
+.brainstorm_img{
+    border-style: dotted;
+    border-color: #570898;
+    border-width: 0.4cm;
+    border-radius: 0.1in;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    padding-right: 2px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 5px; 
+    margin-bottom: 20px;
+}
+
 
 /*Adjust spacing for h2, h3 elems*/
 h2, h3{

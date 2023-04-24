@@ -29,7 +29,7 @@ h2{
 
 /*Form drop down coloring*/
 select[name="ready"]{
-    background-color: #c44411;
+    background-color: #c4400c;
 }
 
 /*Change link click color*/
@@ -62,8 +62,6 @@ h2, h3{
         background-color: pink;
     }
 }
-
-
 
 /*Set left margin for all elems*/
 *{
@@ -137,4 +135,29 @@ p.new_time {display:inline;}
     grid-template-rows: 30px;
     column-gap: 20px;
     row-gap: 10px;
+}
+
+/*Resize text after div*/
+div p{
+    font-size: 26px;
+}
+
+/*Recolor child text of div*/
+div > p{
+    background-color: pink;
+}
+
+/**/
+h2 + div{
+    margin-top: 30px;
+}
+
+/*Add Margin to grid through general selector*/
+p ~ label{
+    font-family: Oswald;
+}
+
+/*Italicize first form questions*/
+p.formq{
+    font-style: italic;
 }
